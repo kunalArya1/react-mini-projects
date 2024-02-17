@@ -3,17 +3,14 @@ import Tour from "./Tour";
 
 const Tours = () => {
   return (
-    <>
-      <div className="w-[80%] m-auto bg-white p-7 ">
-        <div className="text-center mb-10">
-          <h1 className=" text-center text-3xl font-bold">Our Tour</h1>
-          <div className="h-[3px] left-[47.5%] mt-2 absolute w-[5%] bg-green-400"></div>
-        </div>
-        <div className="flex">
-          <Tour />
-        </div>
+    <div className="  w-full bg-gray-300 p-20">
+      <div className=" text-center">
+        <h1 className=" font-semibold text-4xl mb-2">Ours Tours</h1>
+        <div className=" h-1 w-[9em] bg-green-400 relative top-2 left-[44.5%] mb-14"></div>
       </div>
-    </>
+
+      <Tour />
+    </div>
   );
 };
 
