@@ -15,9 +15,6 @@ const Tour = () => {
           Headign First JavaScript
         </h1>
         <p className=" text-left p-4 text-[1.1em]">
-          Paris is synonymous with the finest things that culture can offer — in
-          art, fashion, food, literature, and ideas. On this tour, your
-          Paris-savvy Rick Steves guide will immerse you in the very best of
           <br />
           <button className=" font-bold text-green-400">Read More</button>
         </p>
